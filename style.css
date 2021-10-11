@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.col-2 h1 {
+    font-size: 50px;
+    padding: 10px 0;
+}
+
+.col-2 h4 {
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+.btn {
+    padding: 5px 12px;
+    background: olive;
+    color: white;
+    margin-top: 15px;
+}
+
+.col-2 span {
+    color: rgb(189, 128, 16);
+}
+
+.col-2 {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+
+.col-2 img {
+    width: 100%;
+}
+
+.texth2 {
+    font-size: 37px;
+}
+
+.btn-2 {
+    padding: 6px 35px;
+    margin-top: 25px;
+    background: green;
+    color: white;
+}
+
+section {
+    height: 100vh;
+    margin: 100px 0;
+}
+
+.bgcls1 {
+    background-image: url("img/s.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.top-banner {
+    background-image: url("img/s.png");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.boxstyle {
+    box-shadow: 10px 10px 30px gray;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.section-3 {
+    background-image: url("img/s.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 350px;
+}
+
+.ex {
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-size: 30px;
+    color: chocolate
+}
+
+#boxstyle1 {
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#boxstyle2 {
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+@media only screen and (max-width: 900px) {
+    .col-2 {
+        width: 80%;
+        margin-left: 7%;
+    }
+    #boxstyle1 {
+        margin-bottom: 50px;
+    }
+    .boxstyle {
+        box-shadow: none;
+        height: 200px;
+        border-radius: 10px;
+    }
+}
